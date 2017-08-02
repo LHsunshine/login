@@ -22,6 +22,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    BmobUser *bUser=[BmobUser currentUser];
+    self.username.text=bUser.mobilePhoneNumber;
+    
     
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
@@ -29,18 +32,18 @@
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
     //[self.usernameButton setTitle:@"wetddfg" forState:UIControlStateNormal];
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(registerCompletion:) name:@"RegisterCompletionNotification" object:nil];
-
+//    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(registerCompletion:) name:@"RegisterCompletionNotification" object:nil];
+//
 }
-- (void)registerCompletion:(NSNotification *)notification{
-    NSDictionary *theData=[notification userInfo];
-    username.text=[theData objectForKey:@"username"];
-    NSLog(@"username=%@",username.text);
-}
-- (void)dealloc{
-    //删除观察者
-    [[NSNotificationCenter defaultCenter] removeObserver:self name:@"RegisterCompletionNotification" object:nil];
-}
+//- (void)registerCompletion:(NSNotification *)notification{
+//    NSDictionary *theData=[notification userInfo];
+//    username.text=[theData objectForKey:@"username"];
+//    NSLog(@"username=%@",username.text);
+//}
+//- (void)dealloc{
+//    //删除观察者
+//    [[NSNotificationCenter defaultCenter] removeObserver:self name:@"RegisterCompletionNotification" object:nil];
+//}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

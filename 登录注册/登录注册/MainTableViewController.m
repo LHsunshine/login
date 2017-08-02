@@ -60,12 +60,62 @@
     [self getLocation];
     
     BmobUser *user=[BmobUser currentUser];
-    self.stuID.text=user.username;
-    self.phone.text=user.mobilePhoneNumber;
     
+   
     self.stuID.userInteractionEnabled=NO;//用户名文本不可编辑
     self.phone.userInteractionEnabled=NO;
+    BmobQuery *bquery = [BmobQuery queryForUser];
+    //查找GameScore表里面id为0c6db13c的数据
+    [bquery getObjectInBackgroundWithId:user.objectId block:^(BmobObject *object,NSError *error){
+        if (error){
+            //进行错误处理
+        }else{
+            //表里有id为0c6db13c的数据
+            if (object) {
+                //得到playerName和cheatMode
+                NSString *name = [object objectForKey:@"name"];
+                self.name.text=name;
+
+                NSString *nickname = [object objectForKey:@"nickname"];
+                self.nickname.text=nickname;
+                
+                NSDate *birthday = [object objectForKey:@"birthday"];
+                 NSString *birthday1=[NSString stringWithFormat:@"%@",birthday];
+                self.birthday.text=birthday1;
+                
+                NSNumber *age = [object objectForKey:@"age"];
+                NSString *age1=[NSString stringWithFormat:@"%@",age];
+                self.age.text=age1;
+                
+                NSString *sign = [object objectForKey:@"sign"];
+                self.sign.text=sign;
+                
+                NSString *area = [object objectForKey:@"area"];
+                self.area.text=area;
+                
+                NSString *college = [object objectForKey:@"college"];
+                self.college.text=college;
+                
+                NSString *major = [object objectForKey:@"major"];
+                self.major.text=major;
+                
+                NSString *classname = [object objectForKey:@"classname"];
+                self.classname.text=classname;
+                
+                NSString *Instructor = [object objectForKey:@"Instructor"];
+                self.Instructor.text=Instructor;
+
+                NSString *qq = [object objectForKey:@"QQ"];
+                self.qq.text=qq;
+
+                self.stuID.text=user.username;
+                self.phone.text=user.mobilePhoneNumber;
+
+            }
+        }
+    }];
     
+
    // [self.sex addTarget:self action:@selector(selected:) forControlEvents:UIControlEventValueChanged];
 
 }

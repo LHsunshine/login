@@ -87,42 +87,42 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FST-qR-Y1c">
-                                <rect key="frame" x="8" y="92" width="304" height="104"/>
+                                <rect key="frame" x="8" y="88.5" width="304" height="93.5"/>
                                 <subviews>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="请输入11位手机号" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="HPu-5A-QkK">
-                                        <rect key="frame" x="98" y="8" width="198" height="24"/>
+                                        <rect key="frame" x="85.5" y="8" width="210.5" height="20.5"/>
                                         <nil key="textColor"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <textInputTraits key="textInputTraits" keyboardType="phonePad"/>
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="手机号：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Fc-B4-l3r">
-                                        <rect key="frame" x="8" y="8" width="82" height="24"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <rect key="frame" x="8" y="8" width="69.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="学号：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vbd-EI-RVX">
-                                        <rect key="frame" x="8" y="40" width="82" height="24"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <rect key="frame" x="8" y="36.5" width="69.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="密码：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mcR-Bq-Rrb">
-                                        <rect key="frame" x="8" y="72" width="82" height="24"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <rect key="frame" x="8" y="65" width="69.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="请输入您的学号" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="sVg-RK-NvE">
-                                        <rect key="frame" x="98" y="40" width="198" height="24"/>
+                                        <rect key="frame" x="85.5" y="36.5" width="210.5" height="20.5"/>
                                         <nil key="textColor"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <textInputTraits key="textInputTraits" keyboardType="phonePad"/>
                                     </textField>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="请输入6位密码" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="wCZ-EP-ECa">
-                                        <rect key="frame" x="98" y="72" width="198" height="24"/>
+                                        <rect key="frame" x="85.5" y="65" width="210.5" height="20.5"/>
                                         <nil key="textColor"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                     </textField>
                                 </subviews>
@@ -155,13 +155,13 @@
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="请输入您的手机号、学号：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FNU-vb-MDx">
-                                <rect key="frame" x="24" y="60" width="245" height="24"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <rect key="frame" x="24" y="60" width="208" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hRZ-T0-ddY">
-                                <rect key="frame" x="24" y="212" width="272" height="36"/>
+                                <rect key="frame" x="24" y="198" width="272" height="36"/>
                                 <color key="backgroundColor" red="0.97049060880000004" green="0.6776957361" blue="0.37600826850000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="注册"/>
@@ -367,7 +367,7 @@
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="label " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WhR-nS-uBo">
                                                     <rect key="frame" x="108" y="125" width="104" height="28"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -784,14 +784,14 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="学院" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bII-Wr-dxR">
-                                                    <rect key="frame" x="24" y="12" width="35" height="21"/>
+                                                    <rect key="frame" x="21" y="12" width="35" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UxQ-lm-kZS">
-                                                    <rect key="frame" x="74" y="9" width="230" height="30"/>
+                                                    <rect key="frame" x="80" y="9" width="221" height="30"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <nil key="textColor"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -808,14 +808,14 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="专业" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aUa-Zf-HQ2">
-                                                    <rect key="frame" x="20" y="10" width="35" height="21"/>
+                                                    <rect key="frame" x="21" y="18" width="35" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="doI-fL-rwX">
-                                                    <rect key="frame" x="70" y="10" width="231" height="30"/>
+                                                    <rect key="frame" x="82" y="13" width="219" height="30"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <nil key="textColor"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -832,14 +832,14 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="班级" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GDA-P8-fY6">
-                                                    <rect key="frame" x="19" y="10" width="35" height="21"/>
+                                                    <rect key="frame" x="19" y="16" width="35" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="z60-YZ-WpN">
-                                                    <rect key="frame" x="71" y="11" width="229" height="30"/>
+                                                    <rect key="frame" x="83" y="11" width="217" height="30"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <nil key="textColor"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -856,14 +856,14 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="学号" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yfv-bB-iXx">
-                                                    <rect key="frame" x="19" y="10" width="35" height="21"/>
+                                                    <rect key="frame" x="19" y="18" width="35" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zSc-lH-Nhh">
-                                                    <rect key="frame" x="69" y="8" width="231" height="30"/>
+                                                    <rect key="frame" x="85" y="14" width="215" height="30"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <nil key="textColor"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -880,14 +880,14 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="辅导员" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RQI-T6-T9p">
-                                                    <rect key="frame" x="14" y="16" width="52" height="21"/>
+                                                    <rect key="frame" x="18" y="16" width="52" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wvk-HB-XWr">
-                                                    <rect key="frame" x="74" y="12" width="231" height="30"/>
+                                                    <rect key="frame" x="88" y="12" width="213" height="30"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <nil key="textColor"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -914,7 +914,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="Ig2-SV-YHN">
-                                                    <rect key="frame" x="71" y="15" width="230" height="30"/>
+                                                    <rect key="frame" x="88" y="15" width="213" height="30"/>
                                                     <nil key="textColor"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits"/>
@@ -924,7 +924,7 @@
                                                 <constraint firstAttribute="trailingMargin" secondItem="Ig2-SV-YHN" secondAttribute="trailing" constant="11" id="4Jx-bJ-Utc"/>
                                                 <constraint firstItem="dN3-36-k4t" firstAttribute="leading" secondItem="wqS-bV-7vf" secondAttribute="leadingMargin" constant="10" id="IcV-DD-vBd"/>
                                                 <constraint firstItem="Ig2-SV-YHN" firstAttribute="top" secondItem="wqS-bV-7vf" secondAttribute="topMargin" constant="7" id="W7L-NE-gqS"/>
-                                                <constraint firstItem="Ig2-SV-YHN" firstAttribute="leading" secondItem="dN3-36-k4t" secondAttribute="trailing" constant="27" id="g2I-5n-fQy"/>
+                                                <constraint firstItem="Ig2-SV-YHN" firstAttribute="leading" secondItem="dN3-36-k4t" secondAttribute="trailing" constant="44" id="g2I-5n-fQy"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="Ig2-SV-YHN" secondAttribute="bottom" constant="4.5" id="hgo-2P-P8J"/>
                                                 <constraint firstItem="dN3-36-k4t" firstAttribute="baseline" secondItem="Ig2-SV-YHN" secondAttribute="baseline" id="oaK-er-QzQ"/>
                                             </constraints>
@@ -967,12 +967,6 @@
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="57.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="2326055139@qq.com" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="n6j-jh-dJy">
-                                                    <rect key="frame" x="84" y="17" width="139" height="30"/>
-                                                    <nil key="textColor"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                    <textInputTraits key="textInputTraits"/>
-                                                </textField>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="邮箱" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pkn-mo-pWn">
                                                     <rect key="frame" x="18" y="17" width="48" height="30"/>
                                                     <constraints>
@@ -987,14 +981,20 @@
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <state key="normal" title="绑定"/>
                                                 </button>
+                                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="n6j-jh-dJy">
+                                                    <rect key="frame" x="87" y="17" width="171" height="30"/>
+                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstAttribute="trailingMargin" secondItem="n6j-jh-dJy" secondAttribute="trailing" constant="89" id="01A-Uu-Xhf"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="n6j-jh-dJy" secondAttribute="trailing" constant="54" id="01A-Uu-Xhf"/>
                                                 <constraint firstItem="pkn-mo-pWn" firstAttribute="top" secondItem="n6j-jh-dJy" secondAttribute="top" id="7xP-hI-J88"/>
                                                 <constraint firstItem="pkn-mo-pWn" firstAttribute="bottom" secondItem="n6j-jh-dJy" secondAttribute="bottom" id="Cd1-IM-3E2"/>
                                                 <constraint firstItem="pkn-mo-pWn" firstAttribute="leading" secondItem="xDL-cR-Ykb" secondAttribute="leadingMargin" constant="10" id="XMB-xC-ul5"/>
                                                 <constraint firstItem="n6j-jh-dJy" firstAttribute="top" secondItem="xDL-cR-Ykb" secondAttribute="topMargin" constant="9" id="XU0-cE-pjb"/>
-                                                <constraint firstItem="n6j-jh-dJy" firstAttribute="leading" secondItem="pkn-mo-pWn" secondAttribute="trailing" constant="18" id="XdB-8m-cut"/>
+                                                <constraint firstItem="n6j-jh-dJy" firstAttribute="leading" secondItem="pkn-mo-pWn" secondAttribute="trailing" constant="21" id="XdB-8m-cut"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="n6j-jh-dJy" secondAttribute="bottom" constant="2.5" id="ce4-es-5qC"/>
                                             </constraints>
                                         </tableViewCellContentView>
@@ -1285,8 +1285,8 @@
         <image name="wechat-Image" width="75" height="75"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="rfm-LT-wLU"/>
         <segue reference="RPZ-OZ-vxm"/>
-        <segue reference="iXN-kc-4Ci"/>
-        <segue reference="dzf-Fq-P8g"/>
+        <segue reference="9Qq-Xi-aeN"/>
     </inferredMetricsTieBreakers>
 </document>

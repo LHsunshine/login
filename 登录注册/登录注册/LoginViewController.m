@@ -80,6 +80,7 @@
              UIAlertController *alertView=[UIAlertController alertControllerWithTitle:@"提示" message:@"登录成功" preferredStyle:UIAlertControllerStyleAlert];//初始化
              [alertView addAction:[UIAlertAction actionWithTitle:@"知道了" style:UIAlertActionStyleDefault handler:^(UIAlertAction* _Nonnull action)  //创建操作
                                    {
+                                    
                                     //登录成功到主页面
                                     [self performSegueWithIdentifier:@"login" sender:nil];
                                        

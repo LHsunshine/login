@@ -1,0 +1,76 @@
+//
+//  PrefixHeader.pch
+//  登录注册
+//
+//  Created by 李慧 on 2017/10/22.
+//  Copyright © 2017年 李慧. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+// bmob的 key
+#ifndef kBmobKey
+#define kBmobKey @"a1b1724fdc336fdcd6638f48817bfa2a"
+#endif
+
+// 导航栏
+#define NavigationColor [UIColor colorWithRed:248/255.0f green:144/255.0f blue:34/255.0f alpha:1]
+//登录注册按钮
+#define loginRegisterBackgroundColor [UIColor colorWithRed:248/255.0f green:144/255.0f blue:34/255.0f alpha:1]
+
+#define LRBtnTitleColor [UIColor whiteColor]
+#define LRBtnLayerCornerRadius 5.0f
+#define LRFont  [UIFont systemFontOfSize:13]
+#define labelColor  [UIColor grayColor]
+#define labelTextAlignment  NSTextAlignmentCenter;
+//登录页面
+#define LoginBackgroundColor  [UIImage imageNamed:@"bgImage"];//登录按钮背景
+
+// 导航栏注册按钮
+//#define buttonRegisterColor [UIColor colorWithRed:248/255.0f green:144/255.0f blue:34/255.0f alpha:1]
+#define buttonRegisterTitleLabelFont  [UIFont systemFontOfSize:17];
+////导航栏标题
+//#define labelTextColor  [UIColor colorWithRed:248/255.0f green:144/255.0f blue:34/255.0f alpha:1];
+// 登录按钮
+//#define loginBtnColor [UIColor whiteColor]
+//#define loginBtnFont  [UIFont systemFontOfSize:13]
+
+//#define loginBtnBackgroundColor [UIColor colorWithRed:248/255.0f green:144/255.0f blue:34/255.0f alpha:1]
+//#define loginBtnLayerCornerRadius 5.0f
+
+//快速注册、忘记密码
+#define BtnTitleColor [UIColor grayColor]
+
+//#define BtnFont [UIFont systemFontOfSize:13]
+//微信、QQ、微博
+#define BtnLayer 25;
+// 左右的横线
+#define lineColor [UIColor lightGrayColor]
+// @"第三方账号快速登录"
+//#define labelColor  [UIColor grayColor]
+//#define labelTextAlignment  NSTextAlignmentCenter;
+#define LRLabelFont [UIFont systemFontOfSize:14]
+// 用户密码输入框
+#define bgViewLayer 3.0;
+#define bgViewAlpha 0.7;
+#define bgViewBackgroundColor [UIColor whiteColor];
+//#define Font [UIFont systemFontOfSize:14]
+#define TextFiledkeyboardType  UIKeyboardTypeNumberPad;
+#define TextFiledClearButtonMode  UITextFieldViewModeWhileEditing;
+#define TextFiledsecureTextEntry YES  //密文样式
+#define imageViewColor [UIColor colorWithRed:180/255.0f green:180/255.0f blue:180/255.0f alpha:.3]
+
+
+//注册
+#define BackgroundColor [UIColor colorWithRed:240/255.0f green:240/255.0f blue:240/255.0f alpha:1]
+#define BarTintColor [UIColor whiteColor]
+#define Labelcolor  [UIColor blackColor]
+#define LabeltextAlignment NSTextAlignmentLeft
+#define RegisterBtnFont  [UIFont systemFontOfSize:17]
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */

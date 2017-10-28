@@ -7,13 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <CoreLocation/CoreLocation.h>
-@interface MainTableViewController : UITableViewController<CLLocationManagerDelegate>
-{
-    CLLocationManager *locationmanager;//定位服务
-    NSString *currentCity;//当前城市
-    NSString *strlatitude;//经度
-    NSString *strlongitude;//纬度
-}
 
+@protocol MainTableViewControllerDelegate<NSObject>
+@end
+
+@interface MainTableViewController : UITableViewController
+
+@property (nonatomic,assign)id<MainTableViewControllerDelegate>delegate;
+@property (retain,strong) UIImageView *topImage;
 @end

@@ -7,7 +7,9 @@
 //
 
 #import "RootTabBarViewController.h"
-
+#import "UIColor+Hex.h"
+#import "FirstViewController.h"
+#import "MyTableViewController.h"
 @interface RootTabBarViewController ()
 
 @end
@@ -25,7 +27,37 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    NSArray *titles = @[@"首页",@"我的"];
+    NSArray *classNames = @[@"FirstViewController",@"MyTableViewController"];
+    NSArray *imags = @[@"tabbar_home",@"tabbar_profile"];
+    NSMutableArray *mArray = [NSMutableArray array];
+    
+    
+    for (int idx = 0; idx < classNames.count; idx++) {
+        NSString *selImg = [NSString stringWithFormat:@"%@_selected", [imags objectAtIndex:idx] ];
+        id nav = [self viewControllerWithClassName: [classNames objectAtIndex:idx]
+                                             image: [self changeImage:imags[idx]]
+                                     selectedImage: [self changeImage:selImg]
+                                             title: [titles objectAtIndex:idx]];
+        [mArray addObject: nav];
+    }
+    self.viewControllers = mArray;
+    self.tabBar.tintColor = [UIColor colorWithHexString:@"#ff8200" andAlpha:1];
+    
+}
+- (UINavigationController *)viewControllerWithClassName:(NSString*)className image:(UIImage*)image selectedImage:(UIImage *)selectedImage title:(NSString *)title
+{
+    Class class = NSClassFromString( className );
+    id pClass = [[class alloc]init];
+    [pClass setTabBarItem: [[UITabBarItem alloc] initWithTitle: title image:image selectedImage:selectedImage] ];
+    [pClass setTitle: title];
+    UINavigationController *viewController = [[UINavigationController alloc] initWithRootViewController: pClass];
+    return viewController;
+}
+
+-(UIImage *)changeImage:(NSString *)image{
+    return [UIImage imageNamed:[NSString stringWithFormat:@"%@",image]];
+    
 }
 
 - (void)didReceiveMemoryWarning {

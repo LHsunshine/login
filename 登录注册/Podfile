@@ -5,4 +5,7 @@ pod 'SDAutoLayout'
 pod 'BmobSDK'
 pod 'IQKeyboardManager'
 pod 'Reachability'
+pod 'BRPickerView'
+pod 'SVProgressHUD'
 end
+

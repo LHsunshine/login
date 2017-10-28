@@ -10,18 +10,24 @@
 		3CB5F0157AACECFB954C39F8 /* libPods-登录注册.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85CB807E932B26E0CD49D358 /* libPods-登录注册.a */; };
 		9CA0F40A1F3170BF001AF8F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA0F4091F3170BF001AF8F1 /* main.m */; };
 		9CA0F40D1F3170BF001AF8F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA0F40C1F3170BF001AF8F1 /* AppDelegate.m */; };
-		9CA0F4101F3170BF001AF8F1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA0F40F1F3170BF001AF8F1 /* ViewController.m */; };
 		9CA0F4151F3170BF001AF8F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CA0F4141F3170BF001AF8F1 /* Assets.xcassets */; };
 		9CA0F4181F3170BF001AF8F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CA0F4161F3170BF001AF8F1 /* LaunchScreen.storyboard */; };
 		9CA0F4201F31758F001AF8F1 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 9CA0F41F1F31758F001AF8F1 /* Podfile */; };
-		9CA0F4231F3177CE001AF8F1 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA0F4221F3177CE001AF8F1 /* LoginViewController.m */; };
-		9CA0F4311F3177E5001AF8F1 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA0F4251F3177E5001AF8F1 /* RegisterViewController.m */; };
-		9CA0F4321F3177E5001AF8F1 /* ForgetPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA0F4271F3177E5001AF8F1 /* ForgetPasswordViewController.m */; };
-		9CA0F4331F3177E5001AF8F1 /* PasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA0F4291F3177E5001AF8F1 /* PasswordViewController.m */; };
-		9CA0F4341F3177E5001AF8F1 /* RootTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA0F42B1F3177E5001AF8F1 /* RootTabBarViewController.m */; };
-		9CA0F4351F3177E5001AF8F1 /* MyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA0F42D1F3177E5001AF8F1 /* MyTableViewController.m */; };
-		9CA0F4361F3177E5001AF8F1 /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA0F42F1F3177E5001AF8F1 /* MainTableViewController.m */; };
 		9CA0F4371F3177E5001AF8F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CA0F4301F3177E5001AF8F1 /* Main.storyboard */; };
+		9CE114561FA471C50030F403 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CE114551FA471C50030F403 /* LoginViewController.m */; };
+		9CE114591FA471DB0030F403 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CE114571FA471DA0030F403 /* RegisterViewController.m */; };
+		9CE1145C1FA471E40030F403 /* ForgetPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CE1145A1FA471E30030F403 /* ForgetPasswordViewController.m */; };
+		9CE1145F1FA471EC0030F403 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CE1145E1FA471EC0030F403 /* FirstViewController.m */; };
+		9CE114651FA471F60030F403 /* MyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CE114611FA471F60030F403 /* MyTableViewController.m */; };
+		9CE114661FA471F60030F403 /* ShareController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CE114621FA471F60030F403 /* ShareController.m */; };
+		9CE114671FA471F60030F403 /* List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9CE114641FA471F60030F403 /* List.plist */; };
+		9CE1146F1FA472010030F403 /* NSDate+BRAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CE114691FA472000030F403 /* NSDate+BRAdd.m */; };
+		9CE114701FA472010030F403 /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CE1146A1FA472000030F403 /* MainTableViewController.m */; };
+		9CE114711FA472010030F403 /* BRTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CE1146C1FA472000030F403 /* BRTextField.m */; };
+		9CE114721FA472010030F403 /* main.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9CE1146E1FA472010030F403 /* main.plist */; };
+		9CE114771FA4720D0030F403 /* RootTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CE114741FA4720C0030F403 /* RootTabBarViewController.m */; };
+		9CE114781FA4720D0030F403 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CE114761FA4720C0030F403 /* UIColor+Hex.m */; };
+		9CE1147C1FA472610030F403 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CE1147A1FA472610030F403 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,27 +38,38 @@
 		9CA0F4091F3170BF001AF8F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9CA0F40B1F3170BF001AF8F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9CA0F40C1F3170BF001AF8F1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9CA0F40E1F3170BF001AF8F1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9CA0F40F1F3170BF001AF8F1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9CA0F4141F3170BF001AF8F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9CA0F4171F3170BF001AF8F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9CA0F4191F3170BF001AF8F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9CA0F41F1F31758F001AF8F1 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
-		9CA0F4211F3177CE001AF8F1 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
-		9CA0F4221F3177CE001AF8F1 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
-		9CA0F4241F3177E5001AF8F1 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
-		9CA0F4251F3177E5001AF8F1 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
-		9CA0F4261F3177E5001AF8F1 /* ForgetPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForgetPasswordViewController.h; sourceTree = "<group>"; };
-		9CA0F4271F3177E5001AF8F1 /* ForgetPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForgetPasswordViewController.m; sourceTree = "<group>"; };
-		9CA0F4281F3177E5001AF8F1 /* PasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordViewController.h; sourceTree = "<group>"; };
-		9CA0F4291F3177E5001AF8F1 /* PasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordViewController.m; sourceTree = "<group>"; };
-		9CA0F42A1F3177E5001AF8F1 /* RootTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootTabBarViewController.h; sourceTree = "<group>"; };
-		9CA0F42B1F3177E5001AF8F1 /* RootTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootTabBarViewController.m; sourceTree = "<group>"; };
-		9CA0F42C1F3177E5001AF8F1 /* MyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewController.h; sourceTree = "<group>"; };
-		9CA0F42D1F3177E5001AF8F1 /* MyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewController.m; sourceTree = "<group>"; };
-		9CA0F42E1F3177E5001AF8F1 /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
-		9CA0F42F1F3177E5001AF8F1 /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
+		9CA0F41F1F31758F001AF8F1 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9CA0F4301F3177E5001AF8F1 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		9CE114541FA471C50030F403 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		9CE114551FA471C50030F403 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		9CE114571FA471DA0030F403 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		9CE114581FA471DA0030F403 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		9CE1145A1FA471E30030F403 /* ForgetPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForgetPasswordViewController.m; sourceTree = "<group>"; };
+		9CE1145B1FA471E40030F403 /* ForgetPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForgetPasswordViewController.h; sourceTree = "<group>"; };
+		9CE1145D1FA471EC0030F403 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		9CE1145E1FA471EC0030F403 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		9CE114601FA471F50030F403 /* MyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewController.h; sourceTree = "<group>"; };
+		9CE114611FA471F60030F403 /* MyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewController.m; sourceTree = "<group>"; };
+		9CE114621FA471F60030F403 /* ShareController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareController.m; sourceTree = "<group>"; };
+		9CE114631FA471F60030F403 /* ShareController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareController.h; sourceTree = "<group>"; };
+		9CE114641FA471F60030F403 /* List.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = List.plist; sourceTree = "<group>"; };
+		9CE114681FA472000030F403 /* BRTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRTextField.h; sourceTree = "<group>"; };
+		9CE114691FA472000030F403 /* NSDate+BRAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+BRAdd.m"; sourceTree = "<group>"; };
+		9CE1146A1FA472000030F403 /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
+		9CE1146B1FA472000030F403 /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
+		9CE1146C1FA472000030F403 /* BRTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRTextField.m; sourceTree = "<group>"; };
+		9CE1146D1FA472000030F403 /* NSDate+BRAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+BRAdd.h"; sourceTree = "<group>"; };
+		9CE1146E1FA472010030F403 /* main.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = main.plist; sourceTree = "<group>"; };
+		9CE114731FA4720C0030F403 /* RootTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootTabBarViewController.h; sourceTree = "<group>"; };
+		9CE114741FA4720C0030F403 /* RootTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootTabBarViewController.m; sourceTree = "<group>"; };
+		9CE114751FA4720C0030F403 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		9CE114761FA4720C0030F403 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		9CE114791FA4723C0030F403 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		9CE1147A1FA472610030F403 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9CE1147B1FA472610030F403 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,24 +114,18 @@
 		9CA0F4071F3170BF001AF8F1 /* 登录注册 */ = {
 			isa = PBXGroup;
 			children = (
+				9CE114791FA4723C0030F403 /* PrefixHeader.pch */,
+				9CE114511FA4717A0030F403 /* 登录 */,
+				9CE114501FA471780030F403 /* 注册 */,
+				9CE1144F1FA471750030F403 /* 忘记密码 */,
+				9CE1144E1FA471730030F403 /* 首页 */,
+				9CE1144D1FA471700030F403 /* 我的 */,
+				9CE114531FA4719C0030F403 /* 个人信息 */,
+				9CE114521FA471990030F403 /* Others */,
 				9CA0F40B1F3170BF001AF8F1 /* AppDelegate.h */,
 				9CA0F40C1F3170BF001AF8F1 /* AppDelegate.m */,
-				9CA0F40E1F3170BF001AF8F1 /* ViewController.h */,
-				9CA0F40F1F3170BF001AF8F1 /* ViewController.m */,
-				9CA0F4211F3177CE001AF8F1 /* LoginViewController.h */,
-				9CA0F4221F3177CE001AF8F1 /* LoginViewController.m */,
-				9CA0F4241F3177E5001AF8F1 /* RegisterViewController.h */,
-				9CA0F4251F3177E5001AF8F1 /* RegisterViewController.m */,
-				9CA0F4261F3177E5001AF8F1 /* ForgetPasswordViewController.h */,
-				9CA0F4271F3177E5001AF8F1 /* ForgetPasswordViewController.m */,
-				9CA0F4281F3177E5001AF8F1 /* PasswordViewController.h */,
-				9CA0F4291F3177E5001AF8F1 /* PasswordViewController.m */,
-				9CA0F42A1F3177E5001AF8F1 /* RootTabBarViewController.h */,
-				9CA0F42B1F3177E5001AF8F1 /* RootTabBarViewController.m */,
-				9CA0F42C1F3177E5001AF8F1 /* MyTableViewController.h */,
-				9CA0F42D1F3177E5001AF8F1 /* MyTableViewController.m */,
-				9CA0F42E1F3177E5001AF8F1 /* MainTableViewController.h */,
-				9CA0F42F1F3177E5001AF8F1 /* MainTableViewController.m */,
+				9CE1147B1FA472610030F403 /* ViewController.h */,
+				9CE1147A1FA472610030F403 /* ViewController.m */,
 				9CA0F4301F3177E5001AF8F1 /* Main.storyboard */,
 				9CA0F4141F3170BF001AF8F1 /* Assets.xcassets */,
 				9CA0F4161F3170BF001AF8F1 /* LaunchScreen.storyboard */,
@@ -130,6 +141,79 @@
 				9CA0F4091F3170BF001AF8F1 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9CE1144D1FA471700030F403 /* 我的 */ = {
+			isa = PBXGroup;
+			children = (
+				9CE114641FA471F60030F403 /* List.plist */,
+				9CE114601FA471F50030F403 /* MyTableViewController.h */,
+				9CE114611FA471F60030F403 /* MyTableViewController.m */,
+				9CE114631FA471F60030F403 /* ShareController.h */,
+				9CE114621FA471F60030F403 /* ShareController.m */,
+			);
+			name = "我的";
+			sourceTree = "<group>";
+		};
+		9CE1144E1FA471730030F403 /* 首页 */ = {
+			isa = PBXGroup;
+			children = (
+				9CE1145D1FA471EC0030F403 /* FirstViewController.h */,
+				9CE1145E1FA471EC0030F403 /* FirstViewController.m */,
+			);
+			name = "首页";
+			sourceTree = "<group>";
+		};
+		9CE1144F1FA471750030F403 /* 忘记密码 */ = {
+			isa = PBXGroup;
+			children = (
+				9CE1145B1FA471E40030F403 /* ForgetPasswordViewController.h */,
+				9CE1145A1FA471E30030F403 /* ForgetPasswordViewController.m */,
+			);
+			name = "忘记密码";
+			sourceTree = "<group>";
+		};
+		9CE114501FA471780030F403 /* 注册 */ = {
+			isa = PBXGroup;
+			children = (
+				9CE114581FA471DA0030F403 /* RegisterViewController.h */,
+				9CE114571FA471DA0030F403 /* RegisterViewController.m */,
+			);
+			name = "注册";
+			sourceTree = "<group>";
+		};
+		9CE114511FA4717A0030F403 /* 登录 */ = {
+			isa = PBXGroup;
+			children = (
+				9CE114541FA471C50030F403 /* LoginViewController.h */,
+				9CE114551FA471C50030F403 /* LoginViewController.m */,
+			);
+			name = "登录";
+			sourceTree = "<group>";
+		};
+		9CE114521FA471990030F403 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				9CE114731FA4720C0030F403 /* RootTabBarViewController.h */,
+				9CE114741FA4720C0030F403 /* RootTabBarViewController.m */,
+				9CE114751FA4720C0030F403 /* UIColor+Hex.h */,
+				9CE114761FA4720C0030F403 /* UIColor+Hex.m */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		9CE114531FA4719C0030F403 /* 个人信息 */ = {
+			isa = PBXGroup;
+			children = (
+				9CE114681FA472000030F403 /* BRTextField.h */,
+				9CE1146C1FA472000030F403 /* BRTextField.m */,
+				9CE1146E1FA472010030F403 /* main.plist */,
+				9CE1146B1FA472000030F403 /* MainTableViewController.h */,
+				9CE1146A1FA472000030F403 /* MainTableViewController.m */,
+				9CE1146D1FA472000030F403 /* NSDate+BRAdd.h */,
+				9CE114691FA472000030F403 /* NSDate+BRAdd.m */,
+			);
+			name = "个人信息";
 			sourceTree = "<group>";
 		};
 		A775E775167048622FB807B1 /* Pods */ = {
@@ -170,7 +254,7 @@
 		9CA0F3FD1F3170BF001AF8F1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "李慧";
 				TargetAttributes = {
 					9CA0F4041F3170BF001AF8F1 = {
@@ -209,8 +293,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CA0F4181F3170BF001AF8F1 /* LaunchScreen.storyboard in Resources */,
+				9CE114721FA472010030F403 /* main.plist in Resources */,
 				9CA0F4371F3177E5001AF8F1 /* Main.storyboard in Resources */,
 				9CA0F4151F3170BF001AF8F1 /* Assets.xcassets in Resources */,
+				9CE114671FA471F60030F403 /* List.plist in Resources */,
 				9CA0F4201F31758F001AF8F1 /* Podfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -224,13 +310,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-登录注册-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C4498EB9BA4E09ECFBA62BF2 /* [CP] Embed Pods Frameworks */ = {
@@ -254,9 +343,14 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-登录注册/Pods-登录注册-resources.sh",
+				"${PODS_ROOT}/BRPickerView/BRPickerView/AddressPickerView/BRCity.plist",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -270,16 +364,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CA0F4311F3177E5001AF8F1 /* RegisterViewController.m in Sources */,
-				9CA0F4231F3177CE001AF8F1 /* LoginViewController.m in Sources */,
-				9CA0F4321F3177E5001AF8F1 /* ForgetPasswordViewController.m in Sources */,
-				9CA0F4331F3177E5001AF8F1 /* PasswordViewController.m in Sources */,
-				9CA0F4341F3177E5001AF8F1 /* RootTabBarViewController.m in Sources */,
-				9CA0F4101F3170BF001AF8F1 /* ViewController.m in Sources */,
-				9CA0F4351F3177E5001AF8F1 /* MyTableViewController.m in Sources */,
+				9CE1147C1FA472610030F403 /* ViewController.m in Sources */,
+				9CE114771FA4720D0030F403 /* RootTabBarViewController.m in Sources */,
+				9CE114701FA472010030F403 /* MainTableViewController.m in Sources */,
+				9CE114591FA471DB0030F403 /* RegisterViewController.m in Sources */,
+				9CE114561FA471C50030F403 /* LoginViewController.m in Sources */,
+				9CE1145F1FA471EC0030F403 /* FirstViewController.m in Sources */,
+				9CE1145C1FA471E40030F403 /* ForgetPasswordViewController.m in Sources */,
+				9CE1146F1FA472010030F403 /* NSDate+BRAdd.m in Sources */,
 				9CA0F40D1F3170BF001AF8F1 /* AppDelegate.m in Sources */,
-				9CA0F4361F3177E5001AF8F1 /* MainTableViewController.m in Sources */,
 				9CA0F40A1F3170BF001AF8F1 /* main.m in Sources */,
+				9CE114711FA472010030F403 /* BRTextField.m in Sources */,
+				9CE114781FA4720D0030F403 /* UIColor+Hex.m in Sources */,
+				9CE114661FA471F60030F403 /* ShareController.m in Sources */,
+				9CE114651FA471F60030F403 /* MyTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,7 +405,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -315,7 +415,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -355,7 +459,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -363,7 +469,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;

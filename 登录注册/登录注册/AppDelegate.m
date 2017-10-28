@@ -7,8 +7,11 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
+#import "RootTabBarViewController.h"
 #import <BmobSDK/Bmob.h>
 #import <IQKeyboardManager.h>
+#import "PrefixHeader.pch"
 
 
 @interface AppDelegate ()
@@ -20,10 +23,47 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-    [Bmob registerWithAppKey:@"a1b1724fdc336fdcd6638f48817bfa2a"];//申请的授权Key
-    [IQKeyboardManager sharedManager].enable = YES; // 关闭设置为NO, 默认值为NO.
-    [IQKeyboardManager sharedManager].shouldResignOnTouchOutside = YES; // 点击背景收起键盘
-
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    ViewController *VC=[[ViewController alloc]init];   // 登录是首个页面
+    UINavigationController *nav=[[UINavigationController alloc]init];
+    self.window.rootViewController = nav; // 根试图控制器
+    // 判断是否第一次启动，是否加载新手指引。去viewWillAppear下一步
+    if(![[NSUserDefaults standardUserDefaults] boolForKey:@"firstLaunch"])
+    {
+        
+        [[NSUserDefaults standardUserDefaults]setBool:YES forKey:@"firstLaunch"];   // 第一次启动
+        
+        NSLog(@"第一次启动");
+        // 登录
+        [nav pushViewController:VC animated:YES];   // nav 是导航控制器
+        
+        
+        
+    }
+    else
+    {
+        NSLog(@"不是第一次启动");
+        // 新手导航
+        RootTabBarViewController *guide = [[RootTabBarViewController alloc]init];
+        [nav pushViewController:guide animated:YES];   // nav 是导航控制器
+        nav.navigationBarHidden = YES;  // 隐藏导航栏
+        //self.window.rootViewController = nav; // 根试图控制器
+    }
+    //设置NavigationBar背景颜色为白色
+    //    [[UINavigationBar appearance] setBarTintColor:[UIColor whiteColor]];    // 导航栏的颜色是白色
+    //    NSDictionary *attributes=[NSDictionary dictionaryWithObjectsAndKeys:[UIColor colorWithRed:248/255.0f green:144/255.0f blue:34/255.0f alpha:1],NSForegroundColorAttributeName,nil];  // 橙色
+    //
+    //    [nav.navigationBar setTitleTextAttributes:attributes];  // 导航栏的标题颜色为橙色
+    
+    [Bmob registerWithAppKey:kBmobKey];//申请的授权Key
+    
+    
+    // 键盘
+    IQKeyboardManager *manager = [IQKeyboardManager sharedManager];
+    manager.enable = YES;
+    manager.shouldResignOnTouchOutside = YES;
+    manager.shouldToolbarUsesTextFieldTintColor = YES;
+    manager.enableAutoToolbar = YES;
     // Override point for customization after application launch.
     return YES;
 }
